@@ -9,11 +9,13 @@ frontend:
   phases:
     build:
       commands:
+        - nvm install 20
+        - nvm use 20
         - npm run build
   artifacts:
     baseDirectory: dist
     files:
-      - '**/*'
+      - "**/*"
   cache:
     paths:
       - .npm/**/*

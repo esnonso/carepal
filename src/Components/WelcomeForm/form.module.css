@@ -1,0 +1,82 @@
+.form-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../../assets/care-paddy.jpg");
+    background-color: #1a1a1a;
+}
+
+.form {
+    width: 95%;
+    height: 75vh;
+    margin-top: 2rem;
+    overflow-y: auto;
+    padding: 1rem;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.form h3{
+    text-align: center;
+}
+
+.input-container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+
+.input-container input{
+    width:100%;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    padding: 0.3rem;
+    margin-top: 0.25rem;
+    box-sizing: border-box;
+}
+
+.input-container textarea {
+    width: 100%;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    padding: 0.3rem;
+    margin-top: 0.25rem;
+    box-sizing: border-box;
+}
+
+.actions{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.actions button{
+    background-color: #3B82F6;
+    padding: 0.5rem 2rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width:1000px) {
+    .form {
+        width: 50%;
+    }
+}
